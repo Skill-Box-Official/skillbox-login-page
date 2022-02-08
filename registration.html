@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <center>
+        <h1>Register here</h1>
+        <form action="skillbox2.html" method="post">
+          <table>
+              <tr>
+                  <td>username:</td>
+                  <td>
+                      <input type="text" name="user" placeholder="username" required>
+                  </td>
+              </tr>
+
+              <tr>
+                <td>Email id:</td>
+                <td>
+                    <input type="email id" placeholder="Email id"  required>
+                </td>
+            </tr>
+            <tr>
+            <tr>
+                    <td>Gender:</td>
+                    <td>
+                        <input type="radio" name="gender" required>male
+                        <input type="radio" name="gender">female
+                        <input type="radio" name="gender">others
+                    </td>
+            </tr>
+            <tr>
+                <td>DOB:</td>
+                <td>
+                    <input type="date" id="start" name="trip-start" min="1980-01-01" max="2023-12-31"  required>
+                    <span class="validity"></span>
+                </td>
+        </tr>
+
+                <tr>
+                <td>country:</td>
+                <td>
+                    <input type="text"  list="countries" placeholder="country"  required>
+                    <datalist id="countries">
+                        <option value="united states of america"></option>
+                        <option value="united kingdom"></option>
+                        <option value="India"></option>
+                        <option value="China"></option>
+                        <option value="France"></option>
+                        <option value="Russia"></option>
+                    </datalist>
+                </td>
+            </tr>
+              <tr>
+                  <td>Phone :</td>
+                  <td>
+                      <select>
+                          <option>+1</option>
+                          <option>+91</option>
+                          <option>+256</option>
+                          <option>+257</option>
+                          <option>+99</option>
+                      </select>
+                      <input type="number" id="pass"  name="phone "placeholder="Phone"  minlength="10" required>
+                  </td>
+              </tr>
+              <tr>
+                <td>password:</td>
+                <td>
+                    <input type="password" id="pass" name="password" placeholder="(minimum 8 character)"
+                           minlength="8" required>
+                </td>
+            </tr>
+            <tr>
+                <td> retype
+                    password:</td>
+                <td>
+                    <input type="password" id="pass" name="password" placeholder="(minimum 8 character)"
+                           minlength="8" required>
+                </td>
+            </tr>
+              <tr>
+                  <td>
+                      <input type="submit" name="submit" value="Register">
+                  </td>
+                  
+                  <td>
+                      already a memeber?<a href="format.html">login</a>
+                  </td>
+              </tr>
+          </table>
+        </form>
+    </center>
+</body>
+<style>
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        font-family: sans-serif;
+    }
+    .form{
+      vertical-align: middle;
+    }
+</style>
+</html>
